@@ -1,0 +1,106 @@
+.courses_outer {
+    background-color: #f7f7f7;
+    padding: 4rem 4vw;
+}
+.courses_inner {
+    max-width: 90rem;
+    margin: auto;
+}
+/* .courses_heading */
+.courses_heading {
+    padding: 2rem 0;
+
+}
+.courses_heading .heading {
+    text-align: center;
+}
+.courses_heading .heading p{
+    color: #6c63ff;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.courses_heading .heading h2{
+    font-size: 1.875rem;
+    font-weight: 700;
+    padding: 1rem 0;
+}
+
+
+/* course container */
+.course_container {
+    padding: 0 4vw;
+}
+.course_container .quote {
+    margin: auto;
+    text-align: center;
+    max-width: 70ch;
+    color: #222222;
+    font-weight: 400;
+    font-size: 1.2rem;
+
+    padding-bottom: 4rem;
+}
+
+
+
+
+/*  */
+/* courses */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
+    justify-content: center;
+    align-items: center;
+    grid-gap: 20px;
+}
+/* items */
+.course_item {
+    margin: auto;
+    max-width: 350px;
+    border-radius: 5px;
+    border: 1px solid #3333;
+}
+
+/* course_image */
+.course_item .course_image img{
+    width: 100%;
+}
+
+/* course_content */
+.course_item  .course_content {
+    padding: 1rem;
+    display: grid;
+    place-content: center;
+
+}
+.course_item  h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    padding: 0 0 1rem 0;
+}
+.course_item  p {
+    font-size: 1rem;
+    padding: .5rem 0;
+    line-height: 1.5rem;
+}
+.course_item  .price{
+    font-weight: 800;
+    color: #6c63ff;
+}
+
+
+
+/* end Quote */
+.coursesEND {
+    /* border-bottom: 1rem solid #6b63ff7c; */
+    padding: 4rem 4vw;
+    text-align: center;
+}
+.quoteend {
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+.quoteend a{
+    font-size: 1.25rem;
+    font-weight: 500;
+}
