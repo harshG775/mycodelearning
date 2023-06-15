@@ -1,0 +1,162 @@
+/* header {
+    background-image: url("bg.svg");
+    background-size: auto 100%;
+    
+} */
+.navbar {
+    background-color: #f7f7f7;
+}
+.navbar_inner {
+    max-width: 90rem;
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    padding: .5rem;
+}
+
+
+/* navlogo */
+.navlogo {
+    flex: 1 1 200px;
+    text-align: center;
+}
+.navlogo img{
+   max-width: 150px; 
+}
+
+
+/* navlinks */
+.navlinks_outer {
+    flex: 5 1 auto;
+}
+/* menubar logo */
+.menulogo img{
+    padding: 1rem;
+    max-width: 150px; 
+    display: none;
+}
+.navlinks {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+.navlinks  li {
+    padding: .8rem;
+}
+.navlinks  li a {
+    font-weight: 500;
+    color: #333;
+    white-space: nowrap;
+
+}
+.navlinks  li a:hover {
+    color: #6c63ff;
+}
+
+
+/* member_container*/
+.member_outer {
+    flex: 1 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+.member button{
+    border: unset;
+    background-color: #6c63ff;
+    color: #f7f7f7;
+    padding: .5rem 1rem;
+    border-radius: .8rem;
+    margin: .5rem;
+    cursor: pointer;
+}
+.member button:hover{
+    background-color: #2f29a3;
+}
+.member button:active{
+    background-color: #231f7a;
+}
+
+/* menu button */
+.member_outer .menuBtn{
+    all: unset;
+    cursor: pointer;
+    color: #333;
+    padding: .8rem;
+}
+.member_outer .menuBtn:hover{
+    color: #6c63ff;
+}
+#clossBtn {
+    all: unset;
+    position: relative;
+    text-align: right;
+    padding: 1rem;
+}
+#clossBtn i{
+    cursor: pointer;
+}
+
+#menuBtn,
+.clossBtn {
+    display: none;
+}
+
+
+@media (max-width:800px) {
+    /* navlinks */
+    .navlinks_outer {
+        z-index: 5;
+        background-color: #f1f1f1;
+        position: absolute;
+        inset: 0;
+        right: unset;
+        height: 100%;
+        left: -10rem;
+        transition: left .25s;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .navlinks {
+        flex-direction: column;
+        gap: 0;
+        justify-content: flex-start;
+    }
+    /* menubar logo */
+    .menulogo {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }   
+    .menulogo img{
+        display: block;
+    } 
+
+
+
+    /* navlogo */
+    .navlogo img{
+        max-width: 150px; 
+    }
+
+    /* member_container*/
+    .member button{
+        border: unset;
+        background-color: #6c63ff;
+        font-size: .8rem;
+    }
+    /* menu button */
+    .member_outer .menuBtn{
+        padding: .5rem;
+    }
+    #menuBtn,
+    .clossBtn {
+        display: block;
+    }
+
+    
+    
+}

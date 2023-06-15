@@ -1,0 +1,138 @@
+.hero_outer {
+    background-color: #f7f7f7;
+    color: #222;
+    padding: 4rem 4vw;
+}
+.hero {
+    max-width: 90rem;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.hero_left {
+    flex: 2 1 auto;
+    display: grid;
+    place-content: left;
+    padding: 4vw;
+}
+.hero_left h6 {
+    font-weight: 500;
+    font-size: .9rem;
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem ;
+
+
+}
+.hero_left h6 i{
+    background-color: #222;
+    height: .1rem;
+    width: 1.5rem;
+    margin: .5rem;
+}
+.hero_left h1 {
+    font-size: 2rem;
+    max-width: 25ch;
+    color: #222;
+}
+.hero_left h1 span:nth-child(1){
+    color: hsl(162, 94%, 45%);
+}
+.hero_left h1 span:nth-child(2){
+    color: #6c63ff;
+}
+.hero_left p {
+    /* line-height: 5rem; */
+    padding: 2rem 0;
+    font-size: 1.125rem;
+}
+/* .hero_left .coursesBtn {
+
+} */
+.hero_left .coursesBtn button{
+    border: unset;
+    background-color: #6c63ff;
+    color: #f7f7f7;
+    
+    padding: 1rem;
+    border-radius: 5px;
+
+}
+.hero_left .coursesBtn button:hover{
+    background-color: #2f29a3;
+}
+.hero_left .coursesBtn button:active{
+    background-color: #231f7a;
+}
+
+
+/* hero right */
+.hero_right {
+    flex: 1 1 auto;
+    background-color: blueviolet;
+    border-radius: 10px;
+    padding: 2px;
+    color: #f7f7f7;
+
+}
+/* window_options top section  */
+.hero_right .window_options {
+    padding: 1rem;
+    /* border-bottom: 1px solid black; */
+}
+.hero_right .window_options {
+    position: relative;
+    display: flex;
+    gap: 1.5rem;
+}
+.hero_right .window_options .minimise::before{
+    content: "";
+    position: absolute;
+    top: .5rem;
+    background: hsl(0, 70%, 50%);
+    padding: .5rem;
+    border-radius: 100%;
+}
+.hero_right .window_options .maximise::before{
+    content: "";
+    position: absolute;
+    top: .5rem;
+    background: hsl(39, 70%, 50%);
+    padding: .5rem;
+    border-radius: 100%;
+}
+.hero_right .window_options .close::before{
+    content: "";
+    position: absolute;
+    top: .5rem;
+    background: hsl(240, 70%, 50%);
+    padding: .5rem;
+    border-radius: 100%;
+}
+
+/* window_options bottom section  */
+.hero_right .codewindow {
+    border-radius: 10px;
+    /* background-color: #222; */
+    height: 100%;
+}
+.hero_right .codewindow .code{
+    border-radius: 10px;
+    background-color: #222;
+    height: 100%;
+}
+.hero_right .codewindow .coder {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    gap: .5rem;
+    justify-content: space-evenly;
+}
+
+
+@media (max-width:800px) {
+    .hero {
+        flex-direction: column;
+        gap: 5rem;
+    }
+}
