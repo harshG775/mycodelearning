@@ -51,14 +51,14 @@
     grid-template-columns: repeat(auto-fill, minmax(350px, 350px));
     justify-content: center;
     align-items: center;
-    grid-gap: 20px;
+    grid-gap: 1rem;
 }
 /* items */
 .course_item {
-    margin: auto;
     max-width: 350px;
     border-radius: 5px;
-    border: 1px solid #3333;
+    border: 1px solid #3333332a;
+    background-color: white;
 }
 
 /* course_image */
@@ -93,12 +93,15 @@
 /* end Quote */
 .coursesEND {
     /* border-bottom: 1rem solid #6b63ff7c; */
-    padding: 4rem 4vw;
+    padding: 4rem 2vw;
     text-align: center;
 }
 .quoteend {
     font-size: 1.25rem;
     font-weight: 300;
+    background-color: white;
+    padding: 1rem 0;
+    border-radius: 10px;
 }
 .quoteend a{
     font-size: 1.25rem;
