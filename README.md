@@ -1,2 +1,2 @@
 # mycodelearning
-[a link](https://mycodelearning.netlify.app/)
+[MyCodeLearning](https://mycodelearning.netlify.app/)
