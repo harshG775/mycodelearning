@@ -44,6 +44,10 @@
   color: #000;
   font-size: 14px;
 }
+.form .forgot {
+    text-align: left;
+    margin-bottom: 1rem;
+}
 
 .form-field {
   height: 46px;
@@ -61,12 +65,19 @@
 }
 
 .form > button {
-  padding: 12px 10px;
-  border: 0;
-  background: linear-gradient(to right, #de48b5 0%,#0097ff 100%); 
-  border-radius: 3px;
-  margin-top: 10px;
-  color: #fff;
-  letter-spacing: 1px;
-  font-family: 'Rubik', sans-serif;
+    padding: 12px 10px;
+    border: 0;
+    background-color: #6c63ff;
+    border-radius: 3px;
+    margin-top: 10px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.25s;
+}
+.form button:hover{
+    background-color: #2f29a3;
+}
+.form button:active{
+    background-color: #231f7a;
 }
