@@ -1,0 +1,16 @@
+footer {
+    background-color: #3333;
+    padding: 1rem 2vw;
+
+}
+.footer_inner {
+    margin: auto;
+    max-width: 90rem;
+    display: grid;
+    grid-gap: .5rem;
+    place-content: center;
+    text-align: center;
+}
+.footer_inner, .footer_inner a {
+    color: #222;
+}

@@ -7,3 +7,7 @@ $("#menuBtn").addEventListener("click",()=>{
 $("#clossBtn i").addEventListener("click",()=>{
     $(".navlinks_outer").style.left= "-10rem";
 });
+
+
+// getting corrent year
+$(".date").innerHTML = new Date().getFullYear()
